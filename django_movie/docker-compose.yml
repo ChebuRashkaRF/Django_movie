@@ -1,0 +1,38 @@
+version: '3'
+
+services:
+  web:
+      build: .
+      image: dj_movie:tag_movie
+      volumes:
+          - .:/app/django_movie
+      ports:
+          - "8000:8000"
+      env_file:
+          - ./.env.dev
+      command: bash -c "python3 manage.py runserver 0.0.0.0:8000"
+
+  redis:
+      image: redis:6
+
+  celery:
+      image: dj_movie:tag_movie
+      command: celery -A django_movie worker -l info
+      volumes:
+        - .:/app/django_movie
+      depends_on:
+        - redis
+        - web
+      env_file:
+          - ./.env.dev
+
+  celery-beat:
+      image: dj_movie:tag_movie
+      command: celery -A django_movie beat -l info
+      volumes:
+        - .:/app/django_movie
+      depends_on:
+        - redis
+        - web
+      env_file:
+          - ./.env.dev

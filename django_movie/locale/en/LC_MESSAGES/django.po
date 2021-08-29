@@ -1,0 +1,163 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-11 18:41+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: templates/include/footer.html:15
+msgid ""
+"Канал для программистов и людей, которые хотят развиваться в сфере IT.\n"
+"                    Видео уроки по python 3, Django 2, Django 3, JavaScript, "
+"Vue.js, HTML, CSS\n"
+"                    и многое другое."
+msgstr ""
+"A channel for programmers and people who want to develop in the IT field.\n"
+"                    Video tutorials on python 3, Django 2, Django 3, JavaScript, "
+"Vue.js, HTML, CSS\n"
+"                    and much more."
+
+#: templates/include/footer.html:49
+msgid "Разделы"
+msgstr "Sections"
+
+#: templates/include/footer.html:52 templates/include/header.html:14
+msgid "Главная"
+msgstr "Home"
+
+#: templates/include/footer.html:55
+msgid "Контакты"
+msgstr "Contacts"
+
+#: templates/include/header.html:18
+msgid "Категории"
+msgstr "Categories"
+
+#: templates/include/header.html:32
+msgid "Выход"
+msgstr "Sign out"
+
+#: templates/include/header.html:37
+msgid "Вход"
+msgstr "Sign in"
+
+#: templates/include/header.html:41
+msgid "Регистрация"
+msgstr "Create an account"
+
+#: templates/include/header.html:70
+msgid "лучший сайт на django 3"
+msgstr "best site on django 3"
+
+#: templates/include/header.html:71
+msgid "Все о кино"
+msgstr "All about the movie"
+
+#: templates/include/sidebar.html:3
+msgid "Поиск фильма"
+msgstr "Movie search"
+
+#: templates/include/sidebar.html:5
+msgid "Введите название"
+msgstr "Enter the title"
+
+#: templates/include/sidebar.html:14
+msgid "Жанры"
+msgstr "Genre"
+
+#: templates/include/sidebar.html:27 templates/movies/movie_detail.html:25
+msgid "Год"
+msgstr "Year"
+
+#: templates/include/sidebar.html:37
+msgid "Найти"
+msgstr "Search"
+
+#: templates/movies/actor.html:25
+msgid "Возраст"
+msgstr "Age"
+
+#: templates/movies/actor.html:28 templates/movies/movie_detail.html:34
+msgid "Режиссер"
+msgstr "Director"
+
+#: templates/movies/actor.html:43
+msgid "Актер"
+msgstr "Actor"
+
+#: templates/movies/movie_detail.html:28
+msgid "Страна"
+msgstr "Country"
+
+#: templates/movies/movie_detail.html:31
+msgid "Слоган"
+msgstr "Tagline"
+
+#: templates/movies/movie_detail.html:49
+msgid "Актеры"
+msgstr "Actors"
+
+#: templates/movies/movie_detail.html:64
+msgid "Жанр"
+msgstr "Genre"
+
+#: templates/movies/movie_detail.html:75
+msgid "Премьера в мире"
+msgstr "Release date"
+
+#: templates/movies/movie_detail.html:78
+msgid "Бюджет"
+msgstr "Budget"
+
+#: templates/movies/movie_detail.html:81
+msgid "Сборы в США"
+msgstr "Gross US"
+
+#: templates/movies/movie_detail.html:84
+msgid "Сборы в мире"
+msgstr "Gross worldwide"
+
+#: templates/movies/movie_detail.html:88
+msgid "Рейтинг"
+msgstr "Rating"
+
+#: templates/movies/movie_detail.html:140
+msgid "О фильме"
+msgstr "About the film"
+
+#: templates/movies/movie_detail.html:157
+msgid "Оставить отзыв"
+msgstr "Leave a comment"
+
+#: templates/movies/movie_detail.html:164
+msgid "Ваш комментарий"
+msgstr "Your comment"
+
+#: templates/movies/movie_detail.html:171
+msgid "Имя"
+msgstr "Name"
+
+#: templates/movies/movie_detail.html:184
+msgid "Отправить"
+msgstr "Send"
+
+#: templates/movies/movie_detail.html:203
+msgid "Ответить"
+msgstr "Reply"
+
+#: templates/movies/tags/last_movie.html:3
+msgid "Последние добавленные"
+msgstr "Last added"
